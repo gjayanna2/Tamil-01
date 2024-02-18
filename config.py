@@ -98,7 +98,7 @@ FOMET = """
 ♡○♡○♡●♡○♡○♡●♡○♡○♡●♡○♡○♡
 
                   𝑈𝙥𝙻𝐨ɐ𝘥𝕖𝘥 𝙱𝘆👇
-⭑⭑⭑★✪ @Dj_Serials_Bot ✪★⭑⭑⭑
+⭑⭑⭑★✪ @Tamil_Serials_Contact_Bot ✪★⭑⭑⭑
 
                         {}
 
@@ -106,5 +106,5 @@ FOMET = """
 {}
 {}
 
-𝐡𝔬𝘸  𝗧𝐨  𝑫๏𝒘𝗻𝙻๏d - @how_view
+𝐡𝔬𝘸  𝗧𝐨  𝑫๏𝒘𝗻𝙻๏d - <a href="https://t.me/+XVyCB-hL6MJhMTM1">Click Here</a>
   """
