@@ -5,8 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6601011494:AAGMR0i5tlCKITms_7rr2LzZmmAieD_eQ58")
-# TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5872747581:AAH7_XPCOCEVfbgUhepjJWlcOmj8wjDTjBk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6046278479:AAEU4PZT5pMNiHp71jXs4BjO6z5yBGiT5PE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "3393749"))
@@ -15,22 +14,23 @@ APP_ID = int(os.environ.get("APP_ID", "3393749"))
 API_HASH = os.environ.get("API_HASH", "a15a5954a1db54952eebd08ea6c68b71")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001693231644"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001816983833"))
 
 #Your log channel Id
 LOG_ID = int(os.environ.get("LOG_ID", "-1001881799737"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1061576483"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5963138883"))
 
-# #shortenr
-# API = environ.get('API','eedc409c6457b8c783019e990dde8fd531b58eca')
+#shortenr
+API = environ.get('API','eedc409c6457b8c783019e990dde8fd531b58eca')
+
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Jayanna:Jayanna2023@yash.tm1c2bd.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "New_Divya_Spandana")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileShreBot:FileShreBot@cluster0.npdxa7j.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "Tamil_Serials")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -41,7 +41,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "10"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1365052525 5963138883").split()):
+    for x in (os.environ.get("ADMINS", "1365052525 1061576483").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -50,11 +50,11 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b><code>{filename}</code> \n\n𝐉𝐨𝐢𝐧 -> <a href='https://telegram.dog/link_serials'>𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a></b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b><code>{filename}</code> \n\n𝐉𝐨𝐢𝐧 -> <a href='https://telegram.dog/drop_serials'>𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a></b>")
 
 #shortner
-# SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-# SHORTLINK_API = environ.get('SHORTLINK_API', '0af17d003ce7020eb85d2a54fe0f6ef50e770e40')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kingurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e096514a6f0e699170dcf87b7a6aae271f52b86d')
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
@@ -88,8 +88,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
-
-LOG_TEXT_P =  """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫𝐊𝐒
+LOG_TEXT_P =  """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫𝐓𝐒
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
